@@ -4,7 +4,7 @@ Welcome to my C++ projects repository! This repository serves as a documentation
 
 The core focus of this repository is writing **Clean Code**, applying **Functional Programming** concepts, and organizing large projects into manageable, modular, and reusable components (Separation of Concerns).
 
-## 🚀 How to Run (The Main.cpp Runner)
+## 🚀 How to Run (The ```Main.cpp``` Runner)
 
 This repository is designed efficiently. Instead of having multiple disjointed executable files, all projects are accessible through a single entry point: ```Main.cpp``` located in the ```Main``` folder.
 
@@ -67,7 +67,7 @@ Advanced User Management & Security (RBAC):
 
   - ***Custom Permissions:*** The Admin can add, delete, or update other users and assign them specific permissions (keys) to access certain parts of the system.
 
-**Architecture:** Built using Clean Code principles, strictly divided into DataTypes, Menus, Services, and UsersProcess.
+**Architecture:** Built using Clean Code principles, strictly divided into ```DataTypes```, ```Menus```, ```Services```, and ```UsersProcess```.
 
 ## 💳 2. ATM System (```ATMProject```)
 
