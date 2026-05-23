@@ -11,10 +11,10 @@
 
 #include<iostream>
 
-#include"MyInput.h"
-#include"MyOutput.h"
-#include"MyStringProcess.h"
-#include"ClientsProcess.h"
+#include"../../HighlyUsedLibraries/MyInput.h"
+#include"../../HighlyUsedLibraries/MyOutput.h"
+#include"../../HighlyUsedLibraries/MyStringProcess.h"
+#include"../SharedBankLogic/ClientsProcess.h"
 #include"UsersProcess.h"
 #include"BankMenues.h"
 #include"BankDataTypes.h"
@@ -22,7 +22,7 @@
 
 using namespace std;
 
-namespace _3_BankProject
+namespace BankProject
 {
     BankDataTypes::sLogin Login;
 

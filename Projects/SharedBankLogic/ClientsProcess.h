@@ -15,9 +15,9 @@
 #include<vector>
 #include<fstream>
 
-#include"MyInput.h"
-#include"MyOutput.h"
-#include"MyStringProcess.h"
+#include"../../HighlyUsedLibraries/MyInput.h"
+#include"../../HighlyUsedLibraries/MyOutput.h"
+#include"../../HighlyUsedLibraries/MyStringProcess.h"
 
 using namespace std;
 

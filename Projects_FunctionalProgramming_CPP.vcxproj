@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{0bdda595-15e5-4bc3-bf59-98e497cfc815}</ProjectGuid>
-    <RootNamespace>LearningJourneyFunctionalProgrammingProjectsCPP</RootNamespace>
+    <ProjectGuid>{5d116437-2330-49b7-a8ea-880b97105b0c}</ProjectGuid>
+    <RootNamespace>ProjectsFunctionalProgrammingCPP</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -76,7 +76,6 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(ProjectDir)HighlyUsedLibraries;$(ProjectDir)Projects\Headers;$(ProjectDir)Projects\ProjectsCollectionHeader</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -91,7 +90,6 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(ProjectDir)HighlyUsedLibraries;$(ProjectDir)Projects\Headers;$(ProjectDir)Projects\ProjectsCollectionHeader</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -106,7 +104,6 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(ProjectDir)HighlyUsedLibraries;$(ProjectDir)Projects\Headers;$(ProjectDir)Projects\ProjectsCollectionHeader</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -121,7 +118,6 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(ProjectDir)HighlyUsedLibraries;$(ProjectDir)Projects\Headers;$(ProjectDir)Projects\ProjectsCollectionHeader</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -136,22 +132,22 @@
     <ClInclude Include="HighlyUsedLibraries\MyInput.h" />
     <ClInclude Include="HighlyUsedLibraries\MyOutput.h" />
     <ClInclude Include="HighlyUsedLibraries\MyStringProcess.h" />
-    <ClInclude Include="Projects\Headers\ATMDataTypes.h" />
-    <ClInclude Include="Projects\Headers\ATMMenues.h" />
-    <ClInclude Include="Projects\Headers\ATMServices.h" />
-    <ClInclude Include="Projects\Headers\BankDataTypes.h" />
-    <ClInclude Include="Projects\Headers\BankMenues.h" />
-    <ClInclude Include="Projects\Headers\BankServices.h" />
-    <ClInclude Include="Projects\Headers\ClientsProcess.h" />
-    <ClInclude Include="Projects\Headers\UsersProcess.h" />
+    <ClInclude Include="Projects\ATMProject\ATMDataTypes.h" />
+    <ClInclude Include="Projects\ATMProject\ATMMenues.h" />
+    <ClInclude Include="Projects\ATMProject\ATMServices.h" />
+    <ClInclude Include="Projects\BankProject\BankDataTypes.h" />
+    <ClInclude Include="Projects\BankProject\BankMenues.h" />
+    <ClInclude Include="Projects\BankProject\BankServices.h" />
+    <ClInclude Include="Projects\BankProject\UsersProcess.h" />
     <ClInclude Include="Projects\ProjectsCollectionHeader\ProjectsCollectionHeader.h" />
+    <ClInclude Include="Projects\SharedBankLogic\ClientsProcess.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main\Main.cpp" />
-    <ClCompile Include="Projects\Sources\_1_StonePaperScissorsGame.cpp" />
-    <ClCompile Include="Projects\Sources\_2_MathGame.cpp" />
-    <ClCompile Include="Projects\Sources\_3_BankProject.cpp" />
-    <ClCompile Include="Projects\Sources\_4_ATMproject.cpp" />
+    <ClCompile Include="Projects\ATMProject\ATMproject.cpp" />
+    <ClCompile Include="Projects\BankProject\BankProject.cpp" />
+    <ClCompile Include="Projects\MathGame\MathGame.cpp" />
+    <ClCompile Include="Projects\StonePaperScissorsGame\StonePaperScissorsGame.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -18,7 +18,7 @@
 #include<iostream>
 #include<cstdlib>
 
-#include"ProjectsCollectionHeader.h"
+#include"../Projects/ProjectsCollectionHeader/ProjectsCollectionHeader.h"
 
 using namespace std;
 
@@ -27,13 +27,13 @@ int main()
 	srand((unsigned)time(NULL));
 
 
-	//_1_StonePaperScissorsGame::Run();
+	//StonePaperScissorsGame::Run();
 
-	//_2_MathGame::Run();
+	//MathGame::Run();
 
-	_3_BankProject::Run();
+	//BankProject::Run();
 
-	//_4_ATMproject::Run();
+	ATMproject::Run();
 
 
 	return 0;

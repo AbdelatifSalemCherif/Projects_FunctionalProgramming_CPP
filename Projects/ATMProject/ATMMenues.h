@@ -15,8 +15,8 @@
 #include<vector>
 #include<string>
 
-#include"MyInput.h"
-#include"MyOutput.h"
+#include"../../HighlyUsedLibraries/MyInput.h"
+#include"../../HighlyUsedLibraries/MyOutput.h"
 #include"ATMServices.h"
 #include"ATMDataTypes.h"
 

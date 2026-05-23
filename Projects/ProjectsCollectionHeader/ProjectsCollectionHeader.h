@@ -15,22 +15,22 @@
 using namespace std;
 
 
-namespace _1_StonePaperScissorsGame
+namespace StonePaperScissorsGame
 {
 	void Run();
 }
 
-namespace _2_MathGame
+namespace MathGame
 {
 	void Run();
 }
 
-namespace _3_BankProject
+namespace BankProject
 {
 	void Run();
 }
 
-namespace _4_ATMproject
+namespace ATMproject
 {
 	void Run();
 }

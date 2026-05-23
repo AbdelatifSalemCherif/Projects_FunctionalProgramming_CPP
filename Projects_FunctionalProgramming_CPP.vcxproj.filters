@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{540afc9e-c2bc-499d-8dc6-58288fbc293f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Projects">
+      <UniqueIdentifier>{e5fb32af-150b-468d-be83-01d1246dc58e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HighlyUsedLibraries">
+      <UniqueIdentifier>{e44763cd-0d7e-400f-aa71-6ea9bbfbd444}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Projects\BankProject">
+      <UniqueIdentifier>{ace68d71-4377-4cba-86c2-1ece7d5fa59c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Projects\ATMProject">
+      <UniqueIdentifier>{f6918598-41dd-4516-8486-b7f54c678366}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Projects\MathGame">
+      <UniqueIdentifier>{03e2c4a6-0fbb-4a92-b6da-aa195ad693c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Projects\StonePaperScissorsGame">
+      <UniqueIdentifier>{d99d541c-160a-4dd2-9d32-74757dcccce4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Projects\SharedBankLogic">
+      <UniqueIdentifier>{8b4c08ae-4650-4b6d-b4ab-3f30f670d9de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Projects\ProjectsCollectionHeader">
+      <UniqueIdentifier>{cc03408e-b333-49a0-bd14-249922a4bfc4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="HighlyUsedLibraries\CheckNumbersInRange.h">
+      <Filter>HighlyUsedLibraries</Filter>
+    </ClInclude>
+    <ClInclude Include="HighlyUsedLibraries\MyCharProcess.h">
+      <Filter>HighlyUsedLibraries</Filter>
+    </ClInclude>
+    <ClInclude Include="HighlyUsedLibraries\MyInput.h">
+      <Filter>HighlyUsedLibraries</Filter>
+    </ClInclude>
+    <ClInclude Include="HighlyUsedLibraries\MyOutput.h">
+      <Filter>HighlyUsedLibraries</Filter>
+    </ClInclude>
+    <ClInclude Include="HighlyUsedLibraries\MyStringProcess.h">
+      <Filter>HighlyUsedLibraries</Filter>
+    </ClInclude>
+    <ClInclude Include="Projects\BankProject\BankDataTypes.h">
+      <Filter>Projects\BankProject</Filter>
+    </ClInclude>
+    <ClInclude Include="Projects\BankProject\BankMenues.h">
+      <Filter>Projects\BankProject</Filter>
+    </ClInclude>
+    <ClInclude Include="Projects\BankProject\BankServices.h">
+      <Filter>Projects\BankProject</Filter>
+    </ClInclude>
+    <ClInclude Include="Projects\BankProject\UsersProcess.h">
+      <Filter>Projects\BankProject</Filter>
+    </ClInclude>
+    <ClInclude Include="Projects\ATMProject\ATMDataTypes.h">
+      <Filter>Projects\ATMProject</Filter>
+    </ClInclude>
+    <ClInclude Include="Projects\ATMProject\ATMMenues.h">
+      <Filter>Projects\ATMProject</Filter>
+    </ClInclude>
+    <ClInclude Include="Projects\ATMProject\ATMServices.h">
+      <Filter>Projects\ATMProject</Filter>
+    </ClInclude>
+    <ClInclude Include="Projects\ProjectsCollectionHeader\ProjectsCollectionHeader.h">
+      <Filter>Projects\ProjectsCollectionHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="Projects\SharedBankLogic\ClientsProcess.h">
+      <Filter>Projects\SharedBankLogic</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main\Main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Projects\BankProject\BankProject.cpp">
+      <Filter>Projects\BankProject</Filter>
+    </ClCompile>
+    <ClCompile Include="Projects\ATMProject\ATMproject.cpp">
+      <Filter>Projects\ATMProject</Filter>
+    </ClCompile>
+    <ClCompile Include="Projects\MathGame\MathGame.cpp">
+      <Filter>Projects\MathGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Projects\StonePaperScissorsGame\StonePaperScissorsGame.cpp">
+      <Filter>Projects\StonePaperScissorsGame</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

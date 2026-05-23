@@ -14,7 +14,8 @@
 #include<iostream>
 #include<vector>
 
-#include"MyOutput.h"
+#include"../../HighlyUsedLibraries/MyOutput.h"
+#include"../../HighlyUsedLibraries/MyInput.h"
 #include"UsersProcess.h"
 #include"BankServices.h"
 #include"BankDataTypes.h"

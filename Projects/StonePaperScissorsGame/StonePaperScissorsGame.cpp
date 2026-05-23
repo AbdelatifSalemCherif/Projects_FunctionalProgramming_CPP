@@ -13,7 +13,7 @@
 
 using namespace std;
 
-namespace _1_StonePaperScissorsGame
+namespace StonePaperScissorsGame
 {
     int ReadIntNumberInRange(int From, int To, string MessageToUser = "Please enter a positive Number \n")
     {

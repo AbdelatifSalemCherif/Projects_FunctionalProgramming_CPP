@@ -14,7 +14,7 @@
 #include<iostream>
 #include<vector>
 
-#include"ClientsProcess.h"
+#include"../SharedBankLogic/ClientsProcess.h"
 
 using namespace std;
 

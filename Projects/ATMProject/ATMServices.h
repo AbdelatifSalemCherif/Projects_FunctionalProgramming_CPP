@@ -13,9 +13,9 @@
 
 #include<iostream>
 
-#include"MyInput.h"
-#include"MyOutput.h"
-#include"ClientsProcess.h"
+#include"../../HighlyUsedLibraries/MyInput.h"
+#include"../../HighlyUsedLibraries/MyOutput.h"
+#include"../SharedBankLogic/ClientsProcess.h"
 #include"ATMDataTypes.h"
 
 using namespace std;

@@ -13,11 +13,11 @@
 
 #include<iostream>
 
-#include"MyInput.h"
-#include"MyOutput.h"
+#include"../../HighlyUsedLibraries/MyInput.h"
+#include"../../HighlyUsedLibraries/MyOutput.h"
 #include"UsersProcess.h"
-#include"ClientsProcess.h"
-#include"MyStringProcess.h"
+#include"../SharedBankLogic/ClientsProcess.h"
+#include"../../HighlyUsedLibraries/MyStringProcess.h"
 #include"BankMenues.h"
 #include"BankDataTypes.h"
 

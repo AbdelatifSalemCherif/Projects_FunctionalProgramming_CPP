@@ -11,17 +11,17 @@
 
 #include<iostream>
 
-#include"MyInput.h"
-#include"MyOutput.h"
-#include"MyStringProcess.h"
-#include"ClientsProcess.h"
+#include"../../HighlyUsedLibraries/MyInput.h"
+#include"../../HighlyUsedLibraries/MyOutput.h"
+#include"../../HighlyUsedLibraries/MyStringProcess.h"
+#include"../SharedBankLogic/ClientsProcess.h"
 #include"ATMMenues.h"
 #include"ATMDataTypes.h"
 
 
 using namespace std;
 
-namespace _4_ATMproject
+namespace ATMproject
 {
     ATMDataTypes::sLogin Login;
 

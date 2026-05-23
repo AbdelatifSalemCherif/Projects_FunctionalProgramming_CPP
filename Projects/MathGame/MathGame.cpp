@@ -13,7 +13,7 @@
 
 using namespace std;
 
-namespace _2_MathGame
+namespace MathGame
 {
     int ReadIntNumberInRange(int From, int To, string MessageToUser = "Please enter a positive Number \n")
     {
