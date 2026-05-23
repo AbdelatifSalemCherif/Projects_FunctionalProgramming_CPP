@@ -1,6 +1,6 @@
 # 💻 C++ Projects applying Functional Programming & Clean Code
 
-Welcome to my C++ projects repository! This repository serves as a documentation of my learning journey and a **Portfolio** showcasing my skills in software development using C++.
+Welcome to my C++ projects repository! This repository serves as a documentation of my **learning journey** and a **Portfolio** showcasing my skills in software development using C++.
 
 The core focus of this repository is writing **Clean Code**, applying **Functional Programming** concepts, and organizing large projects into manageable, modular, and reusable components (Separation of Concerns) using **"Drive & Conquer"**.
 
