@@ -1,16 +1,16 @@
-\#💻 C++ Functional Programming \& Clean Code Portfolio
+\# 💻 C++ Functional Programming \& Clean Code Portfolio
 
 
 
-Welcome to my C++ projects repository! This repository serves as a documentation of my learning journey and a \*\*Portfolio\*\* showcasing my skills in software development using C++.
+Welcome to my C++ projects repository! This repository serves as a documentation of my learning journey and a \*\* Portfolio \*\* showcasing my skills in software development using C++.
 
 
 
-The core focus of this repository is writing \*\*Clean Code\*\*, applying \*\*Functional Programming\*\* concepts, and organizing large projects into manageable, modular, and reusable components (Separation of Concerns).
+The core focus of this repository is writing \*\* Clean Code \*\*, applying \*\* Functional Programming \*\* concepts, and organizing large projects into manageable, modular, and reusable components (Separation of Concerns).
 
 
 
-\##🚀 How to Run (The Main.cpp Runner)
+\## 🚀 How to Run (The Main.cpp Runner)
 
 
 
@@ -40,7 +40,7 @@ To run a specific project:
 
 
 
-\##📂 Repository Architecture (File Tree)
+\## 📂 Repository Architecture (\* File Tree \*)
 
 
 
@@ -106,7 +106,7 @@ The project is structured professionally, separating logic, UI (Menus), data, an
 
 
 
-\##🏦 1. Core Bank Management System (```BankProject```)
+\## 🏦 1. Core Bank Management System (```BankProject```)
 
 
 
@@ -130,19 +130,19 @@ Key Features:
 
 
 
-&#x09;- \*\*\*Super Admin\*\*\*: The system has a default Admin account (Username: admin, Password: 123). The admin has universal access to all features.
+&#x09;- \*\*\* Super Admin \*\*\*: The system has a default Admin account (Username: admin, Password: 123). The admin has universal access to all features.
 
 
 
-&#x09;- \*\*\*Custom Permissions\*\*\*: The Admin can add, delete, or update other users and assign them specific permissions (keys) to access certain parts of the system.
+&#x09;- \*\*\* Custom Permissions \*\*\*: The Admin can add, delete, or update other users and assign them specific permissions (keys) to access certain parts of the system.
 
 
 
-* \*\*Architecture\*\*: Built using Clean Code principles, strictly divided into DataTypes, Menus, Services, and UsersProcess.
+* \*\* Architecture \*\*: Built using Clean Code principles, strictly divided into DataTypes, Menus, Services, and UsersProcess.
 
 
 
-\##💳 2. ATM System (```ATMProject```)
+\## 💳 2. ATM System (```ATMProject```)
 
 
 
@@ -150,19 +150,19 @@ A client-facing ATM interface that integrates seamlessly with the Bank's ecosyst
 
 
 
-* \*\*\*Authentication\*\*\*: Clients must log in using their Account Number and PIN Code.
+* \*\*\* Authentication \*\*\*: Clients must log in using their Account Number and PIN Code.
 
 
 
-* \*\*\*Services\*\*\*: Once authenticated, clients can check their balance, deposit money, and withdraw money safely.
+* \*\*\* Services \*\*\*: Once authenticated, clients can check their balance, deposit money, and withdraw money safely.
 
 
 
-* \*\*\*Architecture Integration\*\*\*: It shares the core logic (```ClientsProcess.h```) and database (```Clients.txt```) with the main Bank project via the SharedBankLogic folder, demonstrating real-world system architecture.
+* \*\*\* Architecture Integration \*\*\*: It shares the core logic (```ClientsProcess.h```) and database (```Clients.txt```) with the main Bank project via the SharedBankLogic folder, demonstrating real-world system architecture.
 
 
 
-\##🧮 3. Customizable Math Game (```MathGame```)
+\## 🧮 3. Customizable Math Game (```MathGame```)
 
 
 
@@ -170,23 +170,23 @@ An interactive CLI game testing math skills, demonstrating strong control over g
 
 
 
-* \*\*\*Dynamic Customization\*\*\*: Users can choose difficulty (Easy, Normal, Hard, or "Mix") and operation types (Add, Subtract, Multiply, Divide, or "Mix").
+* \*\*\* Dynamic Customization \*\*\*: Users can choose difficulty (Easy, Normal, Hard, or "Mix") and operation types (Add, Subtract, Multiply, Divide, or "Mix").
 
 
 
-* \*\*\*Custom Rounds\*\*\*: The player decides how many rounds they want to play.
+* \*\*\* Custom Rounds \*\*\*: The player decides how many rounds they want to play.
 
 
 
-* \*\*\*Immersive UX\*\*\*: Features color-coded results (Green for winning, Red for losing) and triggers a Bell Sound upon winning/losing.
+* \*\*\* Immersive UX \*\*\*: Features color-coded results (Green for winning, Red for losing) and triggers a Bell Sound upon winning/losing.
 
 
 
-* \*\*\*Final Evaluation\*\*\*: At the end, a comprehensive evaluation table is printed showing total wins, losses, and final score.
+* \*\*\* Final Evaluation \*\*\*: At the end, a comprehensive evaluation table is printed showing total wins, losses, and final score.
 
 
 
-\###✂️ 4. Stone, Paper, Scissors Game (```StonePaperScissorsGame```)
+\### ✂️ 4. Stone, Paper, Scissors Game (```StonePaperScissorsGame```)
 
 
 
@@ -198,19 +198,19 @@ Users select the number of rounds to play against the computer's randomized choi
 
 
 
-* \*\*\*Rich UX Elements\*\*\*: Similar to the Math Game, it features colored outputs (Green/Red) and sound effects for each round result.
+* \*\*\* Rich UX Elements \*\*\*: Similar to the Math Game, it features colored outputs (Green/Red) and sound effects for each round result.
 
 
 
-* \*\*\*Detailed Statistics\*\*\*: After all rounds finish, the game displays a detailed summary table summarizing the player's name, rounds won, rounds lost, draws, and the ultimate winner.
+* \*\*\* Detailed Statistics \*\*\*: After all rounds finish, the game displays a detailed summary table summarizing the player's name, rounds won, rounds lost, draws, and the ultimate winner.
 
 
 
-\##🛠️ Shared Libraries \& Clean Code (```HighlyUsedLibraries```)
+\## 🛠️ Shared Libraries \& Clean Code (```HighlyUsedLibraries```)
 
 
 
-To adhere to the \*\*DRY\*\* (\*\*Don't Repeat Yourself\*\*) principle, I created a folder for highly reusable functions used across all projects. This includes essential \*\*UI\*\* and validation tools such as:
+To adhere to the \*\* DRY \*\* (\*\* Don't Repeat Yourself \*\*) principle, I created a folder for highly reusable functions used across all projects. This includes essential \*\*UI\*\* and validation tools such as:
 
 
 
